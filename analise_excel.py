@@ -28,8 +28,8 @@ def detectar_linha_cabecalho(arquivo, max_linhas=10):
             melhor_linha = i
     return melhor_linha
 
-st.set_page_config(page_title="Editor de Excel com Filtros Dinâmicos", layout="wide")
-st.title("📑 Editor de Planilhas com Filtros Dinâmicos e Edição")
+st.set_page_config(page_title="Editor de Planilha", layout="wide")
+st.title("📑 Editor de Planilhas ")
 
 # Upload do arquivo
 arquivo = st.file_uploader("📁 Envie sua planilha Excel", type=["xlsx"])
